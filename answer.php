@@ -61,11 +61,11 @@
       <div class="right-image">
         <img src="./images/street.jpg" alt="street" />
       </div>
-      <div class="page-content-php">Please enter the following:</div>
+      <div class="page-content-php"></div>
       <br />
         <?php
-        $streetName = $_GET["street-name"];
-        $streetNumber = $_GET["street-number"];
+        $streetName = $_GET["street_name"];
+        $streetNumber = $_GET["street_number"];
         echo "Your info is: " . $streetName . ", age " . $streetNumber . ".";
         ?>
         <div class="page-content-answer">
