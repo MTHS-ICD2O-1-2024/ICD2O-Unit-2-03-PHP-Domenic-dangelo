@@ -63,29 +63,10 @@
       </div>
       <div class="page-content-php">Please enter the following:</div>
       <br />
-      <form>
-        <!-- Simple Textfield -->
-        <p>Street Number</p>
-        <div class="mdl-textfield mdl-js-textfield">
-          <input
-            class="mdl-textfield__input"
-            type="text"
-            pattern="-?[0-9]*(\.[0-9]+)?"
-            id="street-number" />
-          <label class="mdl-textfield__label" for="street-number">Street Number ...</label>
-          <span class="mdl-textfield__error">Input is not a number!</span>
-        </div>
-        <!-- Numeric Textfield -->
-        <p>Street Name</p>
-        <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" id="street-name" />
-          <label class="mdl-textfield__label" for="street-name">Street Name ...</label>
-        </div>
-        <br />
         <?php
-        $name = $_GET["name"];
-        $age = $_GET["age"];
-        echo "Your info is: " . $name . ", age " . $age . ".";
+        $streetName = $_GET["street-name"];
+        $streetNumber = $_GET["street-number"];
+        echo "Your info is: " . $streetName . ", age " . $streetNumber . ".";
         ?>
         <div class="page-content-answer">
           <a href="./index.php">Return</a>
