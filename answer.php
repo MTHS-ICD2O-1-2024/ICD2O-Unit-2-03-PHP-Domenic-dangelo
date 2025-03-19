@@ -45,7 +45,7 @@
     sizes="16x16"
     href="./favicon-16x16.png" />
   <link rel="manifest" href="/site.webmanifest" />
-  <title>Address, with a JS file</title>
+  <title>Address, with a php file</title>
 </head>
 
 <body>
