@@ -69,10 +69,10 @@
           <label class="mdl-textfield__label" for="streetname">Street Name ...</label>
         </div>
         <br />
-        <p>Street Name</p>
+        <p>Street Number</p>
         <div class="mdl-textfield mdl-js-textfield">
           <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="streetnumber">
-          <label class="mdl-textfield__label" for="streetnumber">Street Name ...</label>
+          <label class="mdl-textfield__label" for="streetnumber">Street Number ...</label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
         <br />
