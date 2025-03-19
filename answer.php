@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Address, with a JS file" />
+  <meta name="description" content="Address, with a php file" />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="domenic dangelo" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -54,7 +54,7 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Address, with a JS file</span>
+        <span class="mdl-layout-title">Address, with a php file</span>
       </div>
     </header>
     <main class="mdl-layout__content">
@@ -66,7 +66,7 @@
         <?php
         $streetname = $_GET["streetname"];
         $streetnumber = $_GET["streetnumber"];
-        echo "Your address is: " . $streetname . $streetnumber . ".";
+        echo "Your address is: " . $streetname . "," . $streetnumber . ".";
         ?>
         <div class="page-content-answer">
           <a href="./index.php">Return</a>
