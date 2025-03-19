@@ -64,9 +64,9 @@
       <div class="page-content-php"></div>
       <br />
         <?php
-        $streetName = $_GET["street_name"];
-        $streetNumber = $_GET["street_number"];
-        echo "Your info is: " . $streetName . ", age " . $streetNumber . ".";
+        $streetname = $_GET["streetname"];
+        $streetnumber = $_GET["streetnumber"];
+        echo "Your address is: " . $streetname . $streetnumber . ".";
         ?>
         <div class="page-content-answer">
           <a href="./index.php">Return</a>

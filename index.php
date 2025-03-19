@@ -63,34 +63,27 @@
       </div>
       <div class="page-content-php">Please enter the following:</div>
       <form action="answer.php" method="GET">
+        <p>Street Name</p>
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" name="streetname">
+          <label class="mdl-textfield__label" for="streetname">Street Name ...</label>
+        </div>
         <br />
-        <form>
-          <!-- Simple Textfield -->
-          <p>Street Number</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="street-number" />
-            <label class="mdl-textfield__label" for="street_number">Street Number ...</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-          <!-- Numeric Textfield -->
-          <p>Street Name</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" id="street_name" />
-            <label class="mdl-textfield__label" for="street_name">Street Name ...</label>
-          </div>
-          <br />
-          <!-- Accent-colored raised button with ripple -->
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            type="submit">
-            Enter
-          </button>
-        </form>
-      </div>
-    </main>
+        <p>Street Name</p>
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="streetnumber">
+          <label class="mdl-textfield__label" for="streetnumber">Street Name ...</label>
+          <span class="mdl-textfield__error">Input is not a number!</span>
+        </div>
+        <br />
+        <!-- Accent-colored raised button with ripple -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          type="submit">
+          Enter
+        </button>
+      </form>
+  </div>
+  </main>
   </div>
 </body>
 
